@@ -52,3 +52,17 @@ main img {
     width: 100%;
     max-width: 100%;
 }
+
+img#responsive {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    img#responsive {
+        display: block;
+        width: 100%;
+    }
+    img {
+        display: none;
+    }
+}
